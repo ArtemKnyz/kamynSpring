@@ -15,7 +15,7 @@ import static com.sun.org.apache.xml.internal.serializer.utils.Utils.messages;
 
 
 @Controller
-public class mainController {
+public class MainController {
 
     @Autowired
     private MessageRepo messageRepo;
