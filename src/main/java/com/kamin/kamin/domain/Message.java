@@ -5,8 +5,9 @@ import javax.persistence.*;
 @Entity
 public class Message {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
+
     private String text;
     private String tag;
 
@@ -24,8 +25,8 @@ public class Message {
 
     }
 
-    public String getAuthorName(){
-        return author!= null ? author.getUsername():"<none>";
+    public String getAuthorName() {
+        return author != null ? author.getUsername() : "<none>";
     }
 
 
